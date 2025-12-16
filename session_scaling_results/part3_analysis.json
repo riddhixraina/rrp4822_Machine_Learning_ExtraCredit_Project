@@ -1,0 +1,17 @@
+{
+  "scaling_exponents": {
+    "transformer": 2.3169316950940546,
+    "lstm": -1.9232382206177827,
+    "better_scaler": "transformer"
+  },
+  "time_per_param_avg": {
+    "transformer": 44.638551758133225,
+    "lstm": 125.1805856011101,
+    "more_efficient": "transformer"
+  },
+  "memory_per_param_avg": {
+    "transformer": 1025.172499096503,
+    "lstm": 1045.7544019296868,
+    "more_efficient": "transformer"
+  }
+}

@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data directories
+data/
+data_lakh/
+data_*/
+# Allow JSON and CSV in result folders
+!session_scaling_results/*.json
+!part4_final_evaluation/*.json
+!session_scaling_results/*.csv
+*.csv
+*.json
+# Allow ABC and MIDI in result folders
+!session_scaling_results/*.abc
+!session_scaling_results/*.mid
+!part4_final_evaluation/*.abc
+!part4_final_evaluation/*.mid
+*.mid
+*.abc
+*.midi
+
+# Model checkpoints and runs
+runs/
+runs_*/
+# Exclude all model checkpoint files (too large for git)
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Samples
+samples/
+samples_*/
+samples_best10/
+samples_seeded/
+# Allow result folders to include their samples
+!session_scaling_results/*.abc
+!session_scaling_results/*.mid
+!part4_final_evaluation/*.abc
+!part4_final_evaluation/*.mid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+
+

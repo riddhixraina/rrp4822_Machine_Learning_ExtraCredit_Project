@@ -1,0 +1,128 @@
+[
+  {
+    "model": "tiny",
+    "kind": "gpt",
+    "params": 495872,
+    "train_loss": 2.3367250216702753,
+    "val_loss": 2.0778393745422363,
+    "time_s": 65.75865769386292,
+    "gpu_memory_gb": 0.976002048
+  },
+  {
+    "model": "small",
+    "kind": "gpt",
+    "params": 1483584,
+    "train_loss": 2.1691320342031943,
+    "val_loss": 1.8183581988016764,
+    "time_s": 87.45284819602966,
+    "gpu_memory_gb": 2.09391616
+  },
+  {
+    "model": "medium",
+    "kind": "gpt",
+    "params": 3357696,
+    "train_loss": 1.9731359829352946,
+    "val_loss": 1.416177495320638,
+    "time_s": 113.04137349128723,
+    "gpu_memory_gb": 3.654273024
+  },
+  {
+    "model": "large",
+    "kind": "gpt",
+    "params": 7646080,
+    "train_loss": 1.9063512379836078,
+    "val_loss": 1.3557284355163575,
+    "time_s": 184.02982592582703,
+    "gpu_memory_gb": 6.758910976
+  },
+  {
+    "model": "xl",
+    "kind": "gpt",
+    "params": 85650432,
+    "train_loss": 1.7262768352700983,
+    "val_loss": 1.1524682998657227,
+    "time_s": 757.7906639575958,
+    "gpu_memory_gb": 32.650708992
+  },
+  {
+    "model": "xxl",
+    "kind": "gpt",
+    "params": 83937920,
+    "train_loss": 1.6715278823512243,
+    "val_loss": 1.1134846051534018,
+    "time_s": 813.3400762081146,
+    "gpu_memory_gb": 35.076265984
+  },
+  {
+    "model": "tiny_rnn",
+    "kind": "lstm",
+    "params": 165763,
+    "train_loss": 1.8498096539413218,
+    "val_loss": 1.5392846822738648,
+    "time_s": 52.94896984100342,
+    "gpu_memory_gb": 0.92757248
+  },
+  {
+    "model": "small_rnn",
+    "kind": "lstm",
+    "params": 346883,
+    "train_loss": 1.719746959827993,
+    "val_loss": 1.444932460784912,
+    "time_s": 84.85736131668091,
+    "gpu_memory_gb": 0.589375488
+  },
+  {
+    "model": "med_rnn",
+    "kind": "lstm",
+    "params": 1119875,
+    "train_loss": 1.8241659040461549,
+    "val_loss": 1.5031159400939942,
+    "time_s": 183.4384467601776,
+    "gpu_memory_gb": 0.32437248
+  },
+  {
+    "model": "large_rnn",
+    "kind": "lstm",
+    "params": 1727491,
+    "train_loss": 1.7671869612012339,
+    "val_loss": 1.4642600456873576,
+    "time_s": 182.41378808021545,
+    "gpu_memory_gb": 0.409155072
+  },
+  {
+    "model": "xl_rnn",
+    "kind": "lstm",
+    "params": 3648899,
+    "train_loss": 1.9847164145495277,
+    "val_loss": 1.6137366771697998,
+    "time_s": 249.1531798839569,
+    "gpu_memory_gb": 0.624512512
+  },
+  {
+    "model": "xxl_rnn",
+    "kind": "lstm",
+    "params": 4945155,
+    "train_loss": 1.920436391001311,
+    "val_loss": 1.5436805089314778,
+    "time_s": 223.8017282485962,
+    "gpu_memory_gb": 0.74213888
+  },
+  {
+    "model": "xxxl_rnn",
+    "kind": "lstm",
+    "params": 8539267,
+    "train_loss": 2.142831610692713,
+    "val_loss": 1.7099865754445394,
+    "time_s": 282.045875787735,
+    "gpu_memory_gb": 1.042045952
+  },
+  {
+    "model": "xxxxl_rnn",
+    "kind": "lstm",
+    "params": 13295491,
+    "train_loss": 2.084304442294246,
+    "val_loss": 1.6456382830937704,
+    "time_s": 284.8652799129486,
+    "gpu_memory_gb": 1.348747776
+  }
+]

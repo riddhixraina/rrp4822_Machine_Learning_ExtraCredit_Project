@@ -1,0 +1,82 @@
+[
+  {
+    "idx": 1,
+    "prompt": "",
+    "abc": "./samples_best10/sample_1.abc",
+    "midi": "./samples_best10/sample_1.mid",
+    "valid_abc": true,
+    "midi_ok": false
+  },
+  {
+    "idx": 2,
+    "prompt": "",
+    "abc": "./samples_best10/sample_2.abc",
+    "midi": "./samples_best10/sample_2.mid",
+    "valid_abc": false,
+    "midi_ok": false
+  },
+  {
+    "idx": 3,
+    "prompt": "",
+    "abc": "./samples_best10/sample_3.abc",
+    "midi": "./samples_best10/sample_3.mid",
+    "valid_abc": false,
+    "midi_ok": false
+  },
+  {
+    "idx": 4,
+    "prompt": "",
+    "abc": "./samples_best10/sample_4.abc",
+    "midi": "./samples_best10/sample_4.mid",
+    "valid_abc": false,
+    "midi_ok": false
+  },
+  {
+    "idx": 5,
+    "prompt": "",
+    "abc": "./samples_best10/sample_5.abc",
+    "midi": "./samples_best10/sample_5.mid",
+    "valid_abc": false,
+    "midi_ok": false
+  },
+  {
+    "idx": 6,
+    "prompt": "X:1\nT:Air\nM:3/4\nK:G\n",
+    "abc": "./samples_best10/sample_6.abc",
+    "midi": "./samples_best10/sample_6.mid",
+    "valid_abc": true,
+    "midi_ok": false
+  },
+  {
+    "idx": 7,
+    "prompt": "X:1\nT:Reel\nM:4/4\nK:Dmix\n",
+    "abc": "./samples_best10/sample_7.abc",
+    "midi": "./samples_best10/sample_7.mid",
+    "valid_abc": true,
+    "midi_ok": false
+  },
+  {
+    "idx": 8,
+    "prompt": "X:1\nT:Jig\nM:6/8\nK:Am\n",
+    "abc": "./samples_best10/sample_8.abc",
+    "midi": "./samples_best10/sample_8.mid",
+    "valid_abc": true,
+    "midi_ok": false
+  },
+  {
+    "idx": 9,
+    "prompt": "X:1\nT:Waltz\nM:3/4\nK:C\n",
+    "abc": "./samples_best10/sample_9.abc",
+    "midi": "./samples_best10/sample_9.mid",
+    "valid_abc": true,
+    "midi_ok": true
+  },
+  {
+    "idx": 10,
+    "prompt": "X:1\nT:Hornpipe\nM:4/4\nK:G\n",
+    "abc": "./samples_best10/sample_10.abc",
+    "midi": "./samples_best10/sample_10.mid",
+    "valid_abc": true,
+    "midi_ok": false
+  }
+]
