@@ -30,6 +30,11 @@ Key knobs (edit in `Cfg`):
 - Training curves and metrics: `runs_lakh/scaling_results.json`, `runs_lakh/training_curves.json`
 - Samples and MIDI conversions: `runs_lakh/best_samples/`
 
+## Notebook
+- `Machine_Learning_Project.ipynb` mirrors the pipeline in notebook form (data download, preprocessing, training loops, and progress widgets).  
+- Open in Jupyter/Colab, ensure `pip install -r requirements.txt`, and re-run cells from the top.  
+- If widgets fail to render, trust the notebook and restart the kernel; widget state is stored under notebook metadata.
+
 ## Notes
 - GPU strongly recommended; script will fall back to CPU if CUDA is unavailable.
 - PrettyMIDI conversion may skip corrupted files; see console logs for any failures.
