@@ -35,6 +35,13 @@ Key knobs (edit in `Cfg`):
 - Open in Jupyter/Colab, ensure `pip install -r requirements.txt`, and re-run cells from the top.  
 - If widgets fail to render, trust the notebook and restart the kernel; widget state is stored under notebook metadata.
 
+### Notebook datasets
+- Default notebook run uses the **TheSession ABC dataset** (pulled from the public mirror) for training/eval.
+- A Lakh MIDI path is also scaffolded in code, but full Lakh scaling runs were **not completed** here due to resource limits. Use `LakhMIDI.py` with a manageable subset and adequate GPU if you want to reproduce those experiments.
+
+### Report alignment
+- The accompanying report describes the Session-based training/evaluation performed in the notebook and notes the Lakh MIDI attempt that was abandoned because of resource constraints.
+
 ## Notes
 - GPU strongly recommended; script will fall back to CPU if CUDA is unavailable.
 - PrettyMIDI conversion may skip corrupted files; see console logs for any failures.
